@@ -16,6 +16,11 @@ a {
   color: #000;
 }
 
+ul {
+  font-size: 9px;
+  padding-left: 25px;
+}
+
 .mainContainer {
   width: 595px;
   height: 842px;
@@ -170,14 +175,15 @@ a {
   justify-content: space-between;
   align-items: center;
   margin: 0 10px;
+  padding-bottom: 5px;
 }
 
 .bottomRight h4 {
-  margin: 10px;
+  margin: 5px 10px;
 }
 
 .bottomRight p {
-  font-size: 14px;
+  font-size: 10px;
 }
 
 .skl {
@@ -189,25 +195,39 @@ a {
 }
 
 .skl i {
-  padding-bottom: 6px;
   padding-left: 2px;
 }
 
 .skl p {
   margin-right: 50px;
+  padding-top: 5px;
 }
 
 .achivements {
   display: flex;
   justify-content: space-between;
-  margin: 7px 10px;
+  margin: 4px 10px;
 }
 
 .achivements p {
-  font-size: 12px;
+  font-size: 10px;
+}
+
+.pro div {
+  padding-bottom: 3px;
+  margin: 0 10px;
+}
+
+.pro div p {
+  font-size: 11px;
 }
 
 .special p {
   font-size: 11px;
   margin: 0 10px;
+}
+
+.ref {
+  display: flex;
+  justify-content: space-between;
 }
