@@ -85,6 +85,7 @@ ul {
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   border: 1px solid;
   border-top-right-radius: 20px;
+  height: 1000px;
 }
 
 .bottomLeft p {
@@ -96,7 +97,7 @@ ul {
 }
 
 .skill div {
-  padding-bottom: 5px;
+  padding-bottom: 3px;
   padding-left: 10px;
   display: flex;
 }
@@ -114,7 +115,7 @@ ul {
 .personal {
   display: flex;
   align-items: center;
-  margin-bottom: 3px;
+  margin-bottom: 2px;
 }
 
 .personal i {
@@ -124,7 +125,7 @@ ul {
 }
 
 .interest div {
-  padding-bottom: 5px;
+  padding-bottom: 4px;
   padding-left: 10px;
 }
 
@@ -136,7 +137,6 @@ ul {
 }
 
 .language div {
-  padding-bottom: 5px;
   padding-left: 10px;
 }
 
@@ -175,7 +175,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   margin: 0 10px;
-  padding-bottom: 5px;
+  padding-bottom: 3px;
 }
 
 .bottomRight h4 {
