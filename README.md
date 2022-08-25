@@ -1,10 +1,14 @@
 # Portfolio
 
 
-https://user-images.githubusercontent.com/108167655/185459520-479bf177-b6bd-431c-b338-61dee9329a3e.mp4
+
+https://user-images.githubusercontent.com/108167655/186657171-aca62ece-104c-41bd-b9bb-befdb6e8bb24.mp4
 
 
-![](cv.gif)
+
+
+
+![](Portfolio.gif)
 
 <h1>What is it about?
 <h6>This is my personal "Curriculum Vitae (CV)".
