@@ -22,7 +22,8 @@ ul {
 }
 
 .mainContainer {
-  width: 595px;
+  min-width: 595px;
+  max-width: 595px;
   height: 842px;
   background-color: #fff;
   border: 2px solid;
