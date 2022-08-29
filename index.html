@@ -19,47 +19,58 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="script.js"></script>
   </head>
   <body>
-    <div class="mainContainer">
+    <div class="MAINCONTAINER">
+    <div class="MainContainer">
+      <div class="btnMain">
+        <button class="btn" id="btnPdf">Export to Pdf</button>
+        <select  id="language">
+          <option value="tr">TR</option>
+          <option value="en" selected>EN</option>
+        </select>
+      </div>
+    <div class="mainContainer" id="myCv">
       <div class="top">
         <div class="topLeft">
           <h4>ÇAĞATAY BOZAY</h4>
           <img src="picture.jpg" alt="" />
         </div>
-        <div class="topRight">
-          <p>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm an individual who is ordered, programmed, disciplined and
-            solution-focused on issue. In the field of software technologies, I
-            like following updated developments through magazines and Internet.
-            I'm interested in how to write codes more efficiently in Javascript
-            and React particularly. In addition to software, I can set up
-            contact in English and German language and I am ready to do my best.
+        <div class="topRight" >
+          <p >
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong id="introduction">I'm an individual who is ordered, programmed, disciplined and
+              solution-focused on issue. In the field of software technologies, I
+              like following updated developments through magazines and Internet.
+              I'm interested in how to write codes more efficiently in Javascript
+              and React particularly. In addition to software, I can set up
+              contact in English and German language and I am ready to do my best.</strong> 
           </p>
         </div>
       </div>
       <div class="bottom">
         <div class="bottomLeft">
-          <h3 class="title">PERSONAL</h3>
+          <h3 class="title" id="title">PERSONAL</h3>
           <hr />
           <div class="personal">
             <i class="fa-solid fa-user-tie"></i>
             <div>
-              <h4>Name</h4>
+              <h4 id="isim">Name</h4>
               <p>Çağatay Bozay</p>
             </div>
           </div>
           <div class="personal">
             <i class="fa-solid fa-location-dot"></i>
             <div>
-              <h4>Address</h4>
-              <p>Merkez/ELAZIĞ</p>
+              <h4 id="adres">Address</h4>
+              <p>Elazığ/TURKEY</p>
             </div>
           </div>
           <div class="personal">
             <i class="fa-solid fa-phone"></i>
             <div>
-              <h4>Phone number</h4>
+              <h4 id="telefon">Phone number</h4>
               <p><a href="tel:+090 551 685 52 92">+090 551 685 52 92</a></p>
             </div>
           </div>
@@ -87,55 +98,67 @@
           <div class="personal">
             <i class="fa-solid fa-calendar-days"></i>
             <div>
-              <h4>Date of birth</h4>
+              <h4 id="dogumTarihi">Date of birth</h4>
               <p>10-09-1990</p>
             </div>
           </div>
           <div class="personal">
             <i class="fa-solid fa-house-user"></i>
             <div>
-              <h4>Place of birth</h4>
-              <p>Gölcük</p>
+              <h4 id="dogumYeri">Place of birth</h4>
+              <p>Gölcük/TURKEY</p>
             </div>
           </div>
           <hr />
-          <h3 class="title">SKILLS</h3>
+          <h3 class="title" id="yetenekler">SKILLS</h3>
           <hr />
           <div class="skill">
             <div>
               <span><i class="fa-solid fa-thumbs-up"></i></i></span
-              ><span><h5>Leadership</h5></span>
+              ><span><h5 id="liderlik">Leadership</h5></span>
             </div>
             <div>
               <span><i class="fa-solid fa-thumbs-up"></i></i></span
-                ><span><h5>Customer Skills</h5></span><span></span>
+                ><span><h5 id="musteri">Customer Relations</h5></span><span></span>
             </div>
             <div>
               <span><i class="fa-solid fa-thumbs-up"></i></i></span
-                ><span><h5>Inventory</h5></span><span></span>
+                ><span><h5 id="envanter">Inventory</h5></span><span></span>
             </div>
             <div>
               <span><i class="fa-solid fa-thumbs-up"></i></i></span
-                ><span><h5>Finance</h5></span><span></span>
+                ><span><h5 id="finans">Finance</h5></span><span></span>
             </div>
           </div>
           <hr />
-          <h3 class="title">INTERESTS</h3>
+          <h3 class="title" id="hobiler">INTERESTS</h3>
           <hr />
           <div class="interest">
             <div>
-              <h5>Extreme Summer Sports</h5>
+              <h5 id="extrem">Extreme Summer Sports</h5>
             </div>
-            <div><h5>Camping</h5></div>
+            <div><h5 id="kamp">Camping</h5></div>
             <div><h5>Paintball</h5></div>
             <div><h5>Rafting</h5></div>
           </div>
           <hr />
-          <h3 class="title">LANGUAGES</h3>
+          <h3 class="title" id="diller">LANGUAGES</h3>
           <hr />
           <div class="language">
             <div class="lng">
-              <h5>English</h5>
+              <h5 id="turkce">Turkish</h5><br>
+            </div>
+            <div>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+            </div>
+          </div>
+          <div class="language">
+            <div class="lng">
+              <h5 id="ingilizce">English</h5>
             </div>
             <div>
               <span><i class="fa-solid fa-star"></i></span>
@@ -148,7 +171,7 @@
 
           <div class="language">
             <div class="lng">
-              <h5>German</h5><br>
+              <h5 id="almanca">German</h5><br>
             </div>
             <div>
               <span><i class="fa-solid fa-star"></i></span>
@@ -160,112 +183,110 @@
           </div>
         </div>
         <div class="bottomRight">
-          <u><h4>Work Experience</h4></u>
-          <div class="exp">
+          <u><h4 class="MainDiv" id="isTecrubesi">Work Experience</h4></u>
+          <div class="exp mainDiv">
             <div>
-              <b><p>Intern Engineer</p></b>
-              <p><i>Temsa Global, Adana</i></p>
+              <b><p class="fontTitle" id="stajyer">Intern Engineer</p></b>
+              <p><i id="adanaTurkiye">Temsa Global, Adana, TURKEY</i></p>
             </div>
-            <div><p>February 2014-June 2014</p></div>
-          </div><hr style="width: 95%; margin:0 auto">
-          <u><h4>Education & Qualifications</h4></u>
-          <div class="exp">
+            <div><p id="subat2014">February 2014-June 2014</p></div>
+          </div><hr style="width: 95%; margin:3px auto">
+          <u><h4 class="MainDiv" id="egitim">Education & Qualifications</h4></u>
+          <div class="exp mainDiv">
             <div>
-              <b><p>Automotive Engineering:</p></b>
-              <p>Bachelor Degree : <i>2,71/4</i></p>
-              <i><p>Çukurova University, Adana</p></i>
+              <b><p class="fontTitle" id="otomotiv">Automotive Engineering:</p></b>
+              <p id="lisans1">Bachelor Degree : <i>2,71/4</i></p>
+              <i><p id="cukurova">Cukurova University, Adana</p></i>
             </div>
-            <div><p>September 2009-June 2014</p></div>
+            <div><p id="eylul2009">September 2009-June 2014</p></div>
           </div>
-          <div class="exp">
+          <div class="exp mainDiv">
             <div>
-              <b><p>International Relations:</p></b>
-              <p>Bachelor Degree : <i>2,42/4</i></p>
-              <i><p>Anadolu University, Eskişehir</p></i>
+              <b><p class="fontTitle" id="uluslararasi">International Relations:</p></b>
+              <p id="lisans2">Bachelor Degree : <i>2,42/4</i></p>
+              <i><p id="anadolu">Anadolu University, Eskişehir</p></i>
             </div>
-            <div><p>September 2018-June 2021</p></div>
-          </div><hr style="width: 95%; margin:0 auto">
-          <u><h4>Skills</h4></u>
-          <div class="skl">
+            <div><p id="eylul2018">September 2018-June 2021</p></div>
+          </div><hr style="width: 95%; margin:3px auto">
+          <u><h4 class="MainDiv" id="yetenek">Skills</h4></u>
+          <div class="skl mainDiv">
             <div>
              <b><p>HTML5</p></b>
             </div>
             <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
           </div>
-          <div class="skl">
+          <div class="skl mainDiv">
             <div>
              <b><p>CSS3</p></b>
             </div>
             <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i></div>
           </div>
-          <div class="skl">
+          <div class="skl mainDiv">
             <div>
              <b><p>Javascript</p></b>
             </div>
             <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
           </div>
-          <div class="skl">
+          <div class="skl mainDiv">
             <div>
              <b><p>Booststrap5</p></b>
             </div>
             <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
           </div>
-          <div class="skl">
+          <div class="skl mainDiv">
             <div>
              <b><p>React</p></b>
             </div>
             <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
-          </div><hr style="width: 95%; margin:0 auto">
-          <u><h4>Achivements</h4></u>
-          <div class="achivements">
-            <div><p><b> Foreign Language Exam (German)</b>--- April 2022</p></div>
-          <div><p>Degree:47,5/100</p></div>
+          </div><hr style="width: 95%; margin:3px auto">
+          <u><h4 class="MainDiv" id="basarılar">Achivements</h4></u>
+          <div class="achivements mainDiv">
+            <div ><p><b id="ydsEn"> Foreign Language Exam (German)</b>--- <i id="nisan2022">April 2022</i> </p></div>
+          <div><p id="derece1">Degree:47,5/100</p></div>
           </div>
-          <div class="achivements">
-            <div><p><b>Foreign Language Exam (English)</b>--- Sept 2019</p></div>
-          <div><p>Degree:77,5/100</p></div>
+          <div class="achivements mainDiv">
+            <div><p><b id="ydsGe">Foreign Language Exam (English)</b>--- <i id="eylul2019">Sept 2019</i> </p></div>
+          <div><p id="derece2">Degree:77,5/100</p></div>
           </div>
-          <div class="achivements">
-            <div><p><b> Public Personnel Selection Examination</b>--- May 2016</p></div>
-          <div><p>Degree:82,0/100</p></div>
+          <div class="achivements mainDiv">
+            <div ><p><b id="kpss"> Public Personnel Selection Examination</b>--- <i id="mayis2016">May 2016</i> </p></div>
+          <div><p id="derece3">Degree:82,0/100</p></div>
           </div>
-          <div class="achivements">
-            <div><p><b> Academic Personnel and Postgraduate Education Entrance Examination</b>--- Sept 2019</p></div>
-          <div><p>Degree:72,5/100</p></div>
-          </div><hr style="width: 95%; margin:0 auto">
-          <u><h4>References</h4></u>
-          <div  class="special ref">
+          <div class="achivements mainDiv">
+            <div ><p><b id="ales"> Academic Personnel and Postgraduate Education Entrance Examination</b>--- <i id="Eylul2019">Sept 2019</i> </p></div>
+          <div ><p id="derece4">Degree:72,5/100</p></div>
+          </div><hr style="width: 95%; margin:3px auto">
+          <u><h4 class="MainDiv" id="referanslar">References</h4></u>
+          <div  class="special ref mainDiv">
             <div>
               <b><p>Mehmet Can Seyhan:</p></b>
-          <p>(Founder of Udemig <a target="_blank" href="https://udemig.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>)</p>
+          <p >(<i id="udemig">Founder of Udemig</i>  <a target="_blank" href="https://udemig.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>)</p>
         </div>
           <div>
             <p><u> E-mail</u>: <a href="mailto:mehmet.can.seyhan1@gmail.com">mehmet.can.seyhan1@gmail.com</a></p>
-            <p><u> Phone</u>: <a href="tel:+46704312038">+46 70 431 20 38</a></p>
+            <p ><u id="tel"> Phone</u>: <a href="tel:+46704312038">+46 70 431 20 38</a></p>
           </div>
         </div> <hr style="width: 95%; margin:6px auto">
-        <u><h4>Projects</h4></u>
-          <div  class="pro">
+        <u><h4 class="MainDiv" id="projeler">Projects</h4></u>
+          <div  class="pro mainDiv">
            
-           <div> <b><p>1-Responsive Multipage Project <a target="_blank" href="https://github.com/cbozay/Responsive_Multipage"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+           <div> <b><p ><u id="responsive">1-Responsive Multipage Project</u>  <a target="_blank" href="https://github.com/cbozay/Responsive_Multipage"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
               <ul>
-                <li>It is a full responsive multipaged website sample designed by using HTML and Css intensively.</li>
+                <li id="responsiveAcıklama">It is a full responsive multipaged website sample designed by using HTML and Css intensively.</li>
               </ul></div>
-           <div>  <b><p>2-to do List Project <a target="_blank" href="https://github.com/cbozay/to_do_List"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></p></b>
+           <div>  <b><p ><u id="todo">2-to do List Project</u>  <a target="_blank" href="https://github.com/cbozay/to_do_List"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></p></b>
             <ul>
-              <li>It was an experience which is exteremely teaching for me and by which I have learned the basic Javascript knowledge.</li>
+              <li id="todoAcıklama">It was an experience which is exteremely teaching for me and by which I have learned the basic Javascript knowledge.</li>
             </ul></div>
-           <div>  <b><p>3-Picture Searcher Project <a target="_blank" href="https://github.com/cbozay/Picture_Searcher"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></p></b>
+           <div>  <b><p ><u id="resim">3-Picture Searcher Project</u>  <a target="_blank" href="https://github.com/cbozay/Picture_Searcher"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></p></b>
             <ul>
-              <li>It is a search-engine which is able to provide the element which is required as an output by entering the value by means of keyboard.</li>
+              <li id="resimAcıklama">It is a kind of search-engine which is able to provide the element showing by controlling values entered by means of keyboard as an output.</li>
             </ul></div>
           </div>
-          
-          
-          
-          
         </div>
       </div>
     </div>
+  </div>
+</div>
   </body>
 </html>
