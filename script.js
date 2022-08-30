@@ -101,7 +101,7 @@ const dictionary = [
   {
     id: "turkce",
     tr: "Türkçe",
-    en: "English",
+    en: "Turkish",
   },
   {
     id: "ingilizce",
