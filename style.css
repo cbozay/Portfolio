@@ -26,9 +26,8 @@ ul {
 
 .MainContainer {
   position: relative;
-  min-width: 595px;
+  min-width: 100%;
   max-width: 595px;
-  margin-right: 20px;
 }
 
 .mainContainer {
