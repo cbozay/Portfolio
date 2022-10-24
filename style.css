@@ -290,3 +290,25 @@ ul {
   cursor: pointer;
   transition: 0.5s;
 }
+
+.row {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 10px;
+}
+
+.main-skills {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.stars {
+  margin-bottom: 3px;
+}
+
+.fa-star,
+.fa-regular {
+  border: 1px solid;
+  margin-top: 0.7px;
+}

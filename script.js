@@ -265,8 +265,8 @@ const dictionary = [
   },
   {
     id: "responsive",
-    tr: "1-Responsive Çoklusayfa Projesi",
-    en: "1-Responsive Multipage Project",
+    tr: "1-Kütüphane",
+    en: "1-Library",
   },
   {
     id: "todo",
@@ -275,13 +275,13 @@ const dictionary = [
   },
   {
     id: "resim",
-    tr: "3-Resim Arama Projesi",
-    en: "3-Picture Searcher Project",
+    tr: "3-Hesap Makinesi",
+    en: "3-Calculator",
   },
   {
     id: "responsiveAcıklama",
-    tr: "HTML ve Css yoğunlukla kullanılarak dizayn edilen tam responsive bir çoklusayfa websitesi örneğidir.",
-    en: "It is a full responsive multipaged website sample designed by using HTML and Css intensively.",
+    tr: "Data eklemeye ek olarak, eklenen datanın silme ve düzenleme işlevleri Redux entegre ederek ele alındı. Gerekli link yönlendirmeleri Routes-Dom aracılığıyla sağlandı.",
+    en: "In addition to adding data, it has been handled deleting and editing functions of added data by integrating Redux. Required link navigations have been provided by means of Routes-Dom.",
   },
   {
     id: "todoAcıklama",
@@ -290,8 +290,8 @@ const dictionary = [
   },
   {
     id: "resimAcıklama",
-    tr: "Klavye ile girilen değerleri kontrol ederek bir çıktı olarak gösteren elemanı sağlayan bir çeşit arama motorudur.",
-    en: "It is a kind of search-engine which is able to provide the element showing by controlling values entered by means of keyboard as an output.",
+    tr: "Yapısı birçok state içeren bu projede, çoklu state yönetiminin gerçekleştirilebilmesi için useReducer kullanıldı.",
+    en: "In this project whose structure includes a lot of states, in order that multiply state management could have been realized, useReducer has been used.",
   },
   {
     id: "projeler",
