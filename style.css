@@ -26,13 +26,13 @@ ul {
 
 .MainContainer {
   position: relative;
-  min-width: 60%;
+  min-width: 50%;
   max-width: 595px;
 }
 
 .mainContainer {
   min-width: 595px;
-  max-width: 100%;
+  max-width: 50%;
   height: 900px;
   background-color: #fff;
   border-bottom: 1px solid;
