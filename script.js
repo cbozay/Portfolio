@@ -24,9 +24,14 @@ const dictionary = [
     en: "PERSONAL",
   },
   {
-    id: "introduction",
-    tr: "Düzenli, programlı, disiplinli ve sorunlara çözüm odaklı bir bireyim. Yazılım teknolojileri alanında internet ve dergiler aracılığıyla güncellenmiş gelişmeleri takip etmekten hoşlanırım. Özellikle Javascript ve React'ta kodların nasıl daha verimli yazılabileceğine karşı ilgim vardır. Yazılıma ek olarak, İngilizce ve Almanca dilllerinde iletişim kurabilirim ve elimden gelenin en iyisini yapmaya hazırım.",
-    en: " I'm an individual who is ordered, programmed, disciplined and solution-focused on issue. In the field of software technologies, I like following updated developments through magazines and Internet. I'm interested in how to write codes more efficiently in Javascript and React particularly. In addition to software, I can set up contact in English and German language and I am ready to do my best.",
+    id: "introduction-1",
+    tr: "Düzenli, programlı, disiplinli ve sorunlara çözüm odaklı bir bireyim. Yazılım teknolojileri alanında internet ve dergiler aracılığıyla güncellenmiş gelişmeleri takip etmekten hoşlanırım. Özellikle Javascript ve React'ta kodların nasıl daha verimli yazılabileceğine karşı ilgim vardır. ",
+    en: " I'm an individual who is tidy, programmatic, disciplined and solution-focused on issue. In the field of software technologies, I like following updated developments through magazines and Internet. I'm interested in how to write codes more efficiently in Javascript and React particularly. ",
+  },
+  {
+    id: "introduction-2",
+    tr: "Anadilim Türkçe'ye ek olarak, herhangi bir uluslararası platformun çatısı altında hem İngilizce hem de Almanca olarak yazmada ve konuşmada iletişim kuracak yeterli yetkinliğe sahip olduğumu düşünüyorum. Bu nedenle, karşılıklı etkileşim gerektiren herhangi bir küresel ağ veya çevreye adapte olabileceğimi söylemek zor değildir.",
+    en: " In addition to my native language Turkish, I consider to have enough proficiency to contact verbally and in writing both in English and German languages within the framework of any international platform. Therefore, it is not hard to say that I can adapt in any global network or environment which requires interactivity. ",
   },
   {
     id: "isim",
@@ -119,14 +124,24 @@ const dictionary = [
     en: "Work Experience",
   },
   {
-    id: "stajyer",
-    tr: "Stajyer Mühendis",
-    en: "Intern Engineer",
+    id: "React",
+    tr: "Frontend-React Geliştirici",
+    en: "Frontend-React Developer",
   },
   {
-    id: "adanaTurkiye",
-    tr: "Temsa Global, Adana, Türkiye",
-    en: "Temsa Global, Adana, Turkey",
+    id: "Ankara",
+    tr: "Arabuleu Şirketi, Ankara, TÜRKİYE",
+    en: "Arabuleu Company, Ankara, TURKEY",
+  },
+  {
+    id: "experience-1",
+    tr: "Uzman yazılım mühendisleri ve deneyimli geliştiriciler eşliğinde Frontend-React uygulamalarına ilişkin birçok projede yer aldım.",
+    en: "I have been involved in a lot of projects related to Frontend-React applications practically accompanied by a team of expert Software Engineers and experienced Developers.",
+  },
+  {
+    id: "experience-2",
+    tr: "Küçük-orta ölçekte olan bu projelerle, bir Frontend-React Geliştirici olarak gerekli teknolojileri öğrenme ve çeşitli tecrübeler edinmeyle birlikte, Junior-Middle ölçekte beklenilen şeyi yerine getirmek için yeterli yetkinliğe sahip olduğumu düşünüyorum.",
+    en: "Along with learning required technologies and acquiring various experiences as a React Developer through these projects which are on small-middle scale, I consider to have enough proficiency to carry out what expected in the Junior-Middle scale.",
   },
   {
     id: "egitim",
@@ -164,9 +179,9 @@ const dictionary = [
     en: "Anadolu University, Eskişehir",
   },
   {
-    id: "subat2014",
-    tr: "Şubat 2014-Haziran 2014",
-    en: "February 2014-June 2014",
+    id: "One-year",
+    tr: "Bir Yıllık Tecrübe (Uzaktan)",
+    en: "One-Year Experience (Remote)",
   },
   {
     id: "eylul2009",
@@ -183,115 +198,58 @@ const dictionary = [
     tr: "Yetenekler",
     en: "Skils",
   },
-  {
-    id: "basarılar",
-    tr: "Başarılar",
-    en: "Achivements",
-  },
-  {
-    id: "ydsGe",
-    tr: "Yabancı Dil Sınavı(Almanca)",
-    en: "Foreign Language Exam (German)",
-  },
-  {
-    id: "ydsEn",
-    tr: "Yabancı Dil Sınavı(İngilizce)",
-    en: "Foreign Language Exam (English)",
-  },
-  {
-    id: "kpss",
-    tr: "Kamu Personel Seçme Sınavı",
-    en: "Public Personnel Selection Examination",
-  },
-  {
-    id: "ales",
-    tr: "Akademik Personel ve Lisansüstü Eğitimi Giriş Sınavı",
-    en: "Academic Personnel and Postgraduate Education Entrance Examination",
-  },
-  {
-    id: "nisan2022",
-    tr: "Nisan 2022",
-    en: "April 2022",
-  },
-  {
-    id: "eylul2019",
-    tr: "Eylül 2019",
-    en: "Sept 2019",
-  },
-  {
-    id: "mayis2016",
-    tr: "Mayıs 2016",
-    en: "May 2016",
-  },
-  {
-    id: "Eylul2019",
-    tr: "Eylül 2019",
-    en: "Sept 2019",
-  },
-  {
-    id: "derece1",
-    tr: "Derece:47,5/100",
-    en: "Degree:47,5/100",
-  },
-  {
-    id: "derece2",
-    tr: "Derece:77,5/100",
-    en: "Degree:77,5/100",
-  },
-  {
-    id: "derece3",
-    tr: "Derece:82,0/100",
-    en: "Degree:82,0/100",
-  },
-  {
-    id: "derece4",
-    tr: "Derece:72,5/100",
-    en: "Degree:72,5/100",
-  },
+
   {
     id: "referanslar",
     tr: "Referanslar",
     en: "References",
   },
   {
-    id: "udemig",
-    tr: "Udemig'in Kurucusu",
-    en: "Founder of Udemig",
+    id: "Arabuleu",
+    tr: "Arabuleu'in Kurucusu",
+    en: "Founder of Arabuleu",
+  },
+
+  {
+    id: "hospital",
+    tr: "Hastane Otomasyonu",
+    en: "Hospital Automation",
+  },
+
+  {
+    id: "hospital-1",
+    tr: "Giriş yapılan ve tedavi edilen hasta verilerini veri tabanına kaydetmeye ve bu veriler üzerinde değişiklikler yapmaya izin veren tamamen dinamik bir web uygulamasıdır.",
+    en: "It is a full-dynamic web application allowing to save patient datas admissed and examined on database and to make changes over these datas.",
   },
   {
-    id: "tel",
-    tr: "Telefon",
-    en: "Phone",
+    id: "hospital-2",
+    tr: "Sistemde veri girdilerinin doğrulamasını kontrol eden bütün uyarılar mevcuttur. Örn; randevu zamanının ve hasta telefon numaralarının çakışması durumunda randevu girişi yapamama gibi.",
+    en: "All warnings checking validations of data entrances in system are available. For instance; in case of intersection of appointment time and patients' phone numbers, not to be able to appointment admission and so on.",
   },
   {
-    id: "responsive",
-    tr: "1-Kütüphane",
-    en: "1-Library",
+    id: "hospital-3",
+    tr: "Hasta takibinin hızlı ve etkili yapabilmek adına, hasta ismi araması ve sayfalama mevcuttur.",
+    en: "In order to be able to be made patient follow-up rapidly and effectively, patient name searching and pagination are available.",
   },
   {
-    id: "todo",
-    tr: "2-to-do Listeleme Projesi",
-    en: "2-to do List Project",
+    id: "hospital-4",
+    tr: "Sistemin en çarpıcı tarafı, randevusu gelen herhangi bir hasta için randevu zamanının geldiğini bildiren otomatik bir kontrol mekanizmasının bulunmasıdır. Randevu zamanına 5 dakika kalınca, hastaya ait randevu verisi sarı renge dönüşür. Şayet randevusu geçmişse, otomatik kontrol mekanizması, hastanın randevu verisini `Geçmiş Randevular` için ayrılan bölgeye taşır.",
+    en: "The most striking aspect of system is existance of an automatic control mecanism notifying that the appointment time has come for any patient whose appointment has come. When it is five minutes left for apppointment time, appointment data belonging to the patient turn into yellow color. If appointment time has passed, automatic control mecanism carry appointment data of the patient to allocated field for `Passed Appointments`.",
   },
   {
-    id: "resim",
-    tr: "3-Hesap Makinesi",
-    en: "3-Calculator",
+    id: "hospital-5",
+    tr: "Uygulama kullanıma hazır son versiyonudur. Bütün bu özellikler sayesinde binlerce hastanın takibi kolayca yapılabilir.",
+    en: "The application has the last version being ready for use. Thanks to all these features, folow-up of thousands of patients easily.",
   },
   {
-    id: "responsiveAcıklama",
-    tr: "Data eklemeye ek olarak, eklenen datanın silme ve düzenleme işlevleri Redux entegre ederek ele alındı. Gerekli link yönlendirmeleri Routes-Dom aracılığıyla sağlandı.",
-    en: "In addition to adding data, it has been handled deleting and editing functions of added data by integrating Redux. Required link navigations have been provided by means of Routes-Dom.",
+    id: "hospital-6",
+    tr: "Yapım aşamasının Frontend kısmında React, Redux, Material UI ve Boostrap kütüphaneleri kullanılırken, Backend kısmında JSON Rest Api kullanılmıştır. Bütün aşamalarda Javascript ES6 standartları kullanılmıştır.",
+    en: "While React, Redux, Material UI ve Boostrap libraries have been used in Frontend section of construction stage, JSON Rest Api has been used in Backend section. In all stages, Javascript ES6 standarts have been used.",
   },
   {
-    id: "todoAcıklama",
-    tr: "Benim için son derece öğretici olan ve temel Javascript bilgisini öğrendiğim bir deneyimdi.",
-    en: "It was an experience which is exteremely teaching for me and by which I have learned the basic Javascript knowledge.",
-  },
-  {
-    id: "resimAcıklama",
-    tr: "Yapısı birçok state içeren bu projede, çoklu state yönetiminin gerçekleştirilebilmesi için useReducer kullanıldı.",
-    en: "In this project whose structure includes a lot of states, in order that multiply state management could have been realized, useReducer has been used.",
+    id: "hospital-7",
+    tr: "Uygulamanın detaylarını ve çalışır halini görmek ve için buraya tıklayınız...",
+    en: "In order to see details of application and the functioning of system, click here...",
   },
   {
     id: "projeler",

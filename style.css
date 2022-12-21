@@ -15,7 +15,7 @@ a {
 }
 
 ul {
-  font-size: 9px;
+  font-size: 11px;
   padding-left: 25px;
 }
 
@@ -152,6 +152,11 @@ ul {
   padding-left: 10px;
 }
 
+.b2 {
+  display: flex;
+  justify-content: center;
+}
+
 .fa-star,
 .fa-star-half-stroke {
   font-size: 10px;
@@ -190,6 +195,10 @@ ul {
   padding: 0 10px;
 }
 
+.introMargin {
+  margin-bottom: 8px;
+}
+
 .exp {
   display: flex;
   justify-content: space-between;
@@ -204,6 +213,18 @@ ul {
 
 .bottomRight p {
   font-size: 13px;
+}
+
+.oneYear {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  height: 30px;
+}
+
+.hospitalMargin {
+  margin-bottom: 7px;
 }
 
 .skl {
@@ -223,16 +244,6 @@ ul {
   padding-top: 5px;
 }
 
-.achivements {
-  display: flex;
-  justify-content: space-between;
-  margin: 4px 10px;
-}
-
-.achivements p {
-  font-size: 10px;
-}
-
 .pro div {
   padding-bottom: 3px;
   margin: 0 10px;
@@ -245,6 +256,12 @@ ul {
 .special p {
   font-size: 11px;
   margin: 0 10px;
+}
+
+.rightDepartment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .ref {
@@ -311,4 +328,8 @@ ul {
 .fa-regular {
   border: 1px solid;
   margin-top: 0.7px;
+}
+
+.liLast {
+  display: flex;
 }
