@@ -130,8 +130,8 @@ const dictionary = [
   },
   {
     id: "Ankara",
-    tr: "Arabuleu Şirketi, Ankara, TÜRKİYE",
-    en: "Arabuleu Company, Ankara, TURKEY",
+    tr: "Udemig Şirketi, Ankara, TÜRKİYE",
+    en: "Udemig Company, Ankara, TURKEY",
   },
   {
     id: "experience-1",
@@ -206,8 +206,8 @@ const dictionary = [
   },
   {
     id: "Arabuleu",
-    tr: "Arabuleu'in Kurucusu",
-    en: "Founder of Arabuleu",
+    tr: "Udemig'in Kurucusu",
+    en: "Founder of Udemig",
   },
 
   {
