@@ -135,14 +135,81 @@ const dictionary = [
   },
   {
     id: "experience-1",
-    tr: "Uzman yazılım mühendisleri ve deneyimli geliştiriciler eşliğinde Frontend-React uygulamalarına ilişkin birçok projede yer aldım.",
-    en: "I have been involved in a lot of projects related to Frontend-React applications practically accompanied by a team of expert Software Engineers and experienced Developers.",
+    tr: "Git versiyonlama ile bireysel ve takım çalışmaları yapılarak projeler oluşturuldu.",
+    en: "It has been created projects with Git version control system by being made individual and team work.",
   },
+
   {
     id: "experience-2",
-    tr: "Küçük-orta ölçekte olan bu projelerle, bir Frontend-React Geliştirici olarak gerekli teknolojileri öğrenme ve çeşitli tecrübeler edinmeyle birlikte, Junior-Middle ölçekte beklenilen şeyi yerine getirmek için yeterli yetkinliğe sahip olduğumu düşünüyorum.",
-    en: "Along with learning required technologies and acquiring various experiences as a React Developer through these projects which are on small-middle scale, I consider to have enough proficiency to carry out what expected in the Junior-Middle scale.",
+    tr: "Real Dom daki veriler, Virtual Dom da javascript ES6 standartları kullanılarak manipüle edildi ve dinamik yapılar elde edildi.",
+    en: "The datas in Real Dom have been manipulated by beeing used javascript ES6 standarts in Virtual Dom and so dynamic structures have been acquired.",
   },
+  {
+    id: "experience-3",
+    tr: "Local Storage ye kalıcı veri aktarma ve oradaki verileri okuma.",
+    en: "Transfering permanent data to Local Storage and reading datas there.",
+  },
+  {
+    id: "experience-4",
+    tr: "HTTP protokolünü kullanan Rest API ye, Axios kütüphanesi kullanılarak server taraflı GET, POST, PUT, DELETE gibi request ler atılıp, veri alışverişi sağlandı.",
+    en: "It has been made serverside request such as GET, POST, PUT, DELETE to Rest Api using HTTP protocol by using Axios Library and data flow has been provided.",
+  },
+  {
+    id: "experience-5",
+    tr: "Json Fake API ile Full stack projeler oluşturuldu.",
+    en: "It has been created full stack projects with JSON Fake API.",
+  },
+  {
+    id: "experience-6",
+    tr: "Asenkron fonksiyon yapıları kurularak promise result lar elde edildi.",
+    en: "It has been acquired promise results by being set up asynchronous functional structures.",
+  },
+  {
+    id: "experience-7",
+    tr: "Redux ile State yönetimi entegre edilerek verilere bütün componentlerde erişim sağlandı.",
+    en: "In all components have been reached datas by being entegrated State Management with Redux.",
+  },
+  {
+    id: "experience-8",
+    tr: "Props Drilling yapmaksızın Context API ile componentler arası veri akışı sağlandı.",
+    en: "Without Props Drilling has been provided data flow between components with Context API.",
+  },
+  {
+    id: "experience-9",
+    tr: "Kullanıcı deneyimini performe eden React Hook's lar kullanıldı.",
+    en: "It has been used React Hooks performing user experience.",
+  },
+  {
+    id: "experience-10",
+    tr: "Veri ve tarayıcı davranışı manüpülasyonunu sağlayan Life Cycle metotlar kullanıldı.",
+    en: "It has been used Life Cycle Methods helping data and browser manipulation.",
+  },
+  {
+    id: "experience-11",
+    tr: "Form validasyonu işlemleri yapıldı.",
+    en: "Form validation process has been made.",
+  },
+  {
+    id: "experience-12",
+    tr: "Pagination ve Search işlemleri yapıldı.",
+    en: "Pagination and search process has been made.",
+  },
+  {
+    id: "experience-13",
+    tr: "Local Storage kullanarak Authentication yapıldı.",
+    en: "Authentication has been made using Local Storage.",
+  },
+  {
+    id: "experience-14",
+    tr: "Kütüphane kullanılan veya kullanılmayan responsive web tasarımlar yapıldı.",
+    en: "Reasponsive web designs have been made with or without library.",
+  },
+  {
+    id: "experience-15",
+    tr: "Bootstrap ve Material UI gibi modern kütüphaneler kulanılarak hızlı ve güzel arayüzler elde edildi.",
+    en: "By using modern libraries such as Bootstrap ve Material UI, it has been acquired quick and fantastic interfaces.",
+  },
+
   {
     id: "egitim",
     tr: "Eğitim & Nitelikler",
@@ -208,53 +275,6 @@ const dictionary = [
     id: "Arabuleu",
     tr: "Udemig'in Kurucusu",
     en: "Founder of Udemig",
-  },
-
-  {
-    id: "hospital",
-    tr: "Hastane Otomasyonu",
-    en: "Hospital Automation",
-  },
-
-  {
-    id: "hospital-1",
-    tr: "Giriş yapılan ve tedavi edilen hasta verilerini veri tabanına kaydetmeye ve bu veriler üzerinde değişiklikler yapmaya izin veren tamamen dinamik bir web uygulamasıdır.",
-    en: "It is a full-dynamic web application allowing to save patient datas admissed and examined on database and to make changes over these datas.",
-  },
-  {
-    id: "hospital-2",
-    tr: "Sistemde veri girdilerinin doğrulamasını kontrol eden bütün uyarılar mevcuttur. Örn; randevu zamanının ve hasta telefon numaralarının çakışması durumunda randevu girişi yapamama gibi.",
-    en: "All warnings checking validations of data entrances in system are available. For instance; in case of intersection of appointment time and patients' phone numbers, not to be able to appointment admission and so on.",
-  },
-  {
-    id: "hospital-3",
-    tr: "Hasta takibinin hızlı ve etkili yapabilmek adına, hasta ismi araması ve sayfalama mevcuttur.",
-    en: "In order to be able to be made patient follow-up rapidly and effectively, patient name searching and pagination are available.",
-  },
-  {
-    id: "hospital-4",
-    tr: "Sistemin en çarpıcı tarafı, randevusu gelen herhangi bir hasta için randevu zamanının geldiğini bildiren otomatik bir kontrol mekanizmasının bulunmasıdır. Randevu zamanına 5 dakika kalınca, hastaya ait randevu verisi sarı renge dönüşür. Şayet randevusu geçmişse, otomatik kontrol mekanizması, hastanın randevu verisini `Geçmiş Randevular` için ayrılan bölgeye taşır.",
-    en: "The most striking aspect of system is existance of an automatic control mecanism notifying that the appointment time has come for any patient whose appointment has come. When it is five minutes left for apppointment time, appointment data belonging to the patient turn into yellow color. If appointment time has passed, automatic control mecanism carry appointment data of the patient to allocated field for `Passed Appointments`.",
-  },
-  {
-    id: "hospital-5",
-    tr: "Uygulama kullanıma hazır son versiyonudur. Bütün bu özellikler sayesinde binlerce hastanın takibi kolayca yapılabilir.",
-    en: "The application has the last version being ready for use. Thanks to all these features, folow-up of thousands of patients easily.",
-  },
-  {
-    id: "hospital-6",
-    tr: "Yapım aşamasının Frontend kısmında React, Redux, Material UI ve Boostrap kütüphaneleri kullanılırken, Backend kısmında JSON Rest Api kullanılmıştır. Bütün aşamalarda Javascript ES6 standartları kullanılmıştır.",
-    en: "While React, Redux, Material UI ve Boostrap libraries have been used in Frontend section of construction stage, JSON Rest Api has been used in Backend section. In all stages, Javascript ES6 standarts have been used.",
-  },
-  {
-    id: "hospital-7",
-    tr: "Uygulamanın detaylarını ve çalışır halini görmek ve için buraya tıklayınız...",
-    en: "In order to see details of application and the functioning of system, click here...",
-  },
-  {
-    id: "projeler",
-    tr: "Projeler",
-    en: "Projects",
   },
 ];
 
