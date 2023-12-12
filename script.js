@@ -25,8 +25,8 @@ const dictionary = [
   },
   {
     id: "introduction-1",
-    tr: "Düzenli, programlı, disiplinli ve sorunlara çözüm odaklı bir bireyim. Yazılım teknolojileri alanında internet ve dergiler aracılığıyla güncellenmiş gelişmeleri takip etmekten hoşlanırım. Özellikle Javascript ve React'ta kodların nasıl daha verimli yazılabileceğine karşı ilgim vardır. ",
-    en: " I'm an individual who is tidy, programmatic, disciplined and solution-focused on issue. In the field of software technologies, I like following updated developments through magazines and Internet. I'm interested in how to write codes more efficiently in Javascript and React particularly. ",
+    tr: "Düzenli, programlı, disiplinli ve sorunlara çözüm odaklı bir bireyim. Yazılım teknolojileri alanında internet ve dergiler aracılığıyla güncellenmiş gelişmeleri takip etmekten hoşlanırım. Kodların nasıl daha verimli yazılabileceğine karşı ilgim vardır. ",
+    en: " I'm an individual who is tidy, programmatic, disciplined and solution-focused on issue. In the field of software technologies, I like following updated developments through magazines and Internet. I'm interested in how to write codes more efficiently. ",
   },
   {
     id: "introduction-2",
@@ -125,89 +125,115 @@ const dictionary = [
   },
   {
     id: "React",
-    tr: "Frontend-React Geliştirici",
-    en: "Frontend-React Developer",
+    tr: "Full Stack Geliştirici ( Asp.Net Core | Angular | React )",
+    en: "Full Stack Developer ( Asp.Net Core | Angular | React )",
   },
   {
     id: "Ankara",
-    tr: "Udemig Şirketi, Ankara, TÜRKİYE",
-    en: "Udemig Company, Ankara, TURKEY",
+    tr: "Freelancer, Ankara, TÜRKİYE",
+    en: "Freelancer, Ankara, TURKEY",
   },
   {
+    id: "One-year",
+    tr: "Bir Buçuk Yıllık Tecrübe (Uzaktan)",
+    en: "One and A Half Years of Experience (Remote)",
+  },
+
+  {
     id: "experience-1",
-    tr: "Git versiyonlama ile bireysel ve takım çalışmaları yapılarak projeler oluşturuldu.",
-    en: "It has been created projects with Git version control system by being made individual and team work.",
+    tr: "ASP.NET Core Rest-web API ile uygulama geliştirme.",
+    en: "Developing applications with ASP.NET Core Rest-Web API.",
   },
 
   {
     id: "experience-2",
-    tr: "Real Dom daki veriler, Virtual Dom da javascript ES6 standartları kullanılarak manipüle edildi ve dinamik yapılar elde edildi.",
-    en: "The datas in Real Dom have been manipulated by beeing used javascript ES6 standarts in Virtual Dom and so dynamic structures have been acquired.",
+    tr: "Generic Repository ve CQRS tasarım kalıplarıyla çalışmalar yapma.",
+    en: "Working on Generic Repository ve CQRS Design Patterns.",
   },
   {
     id: "experience-3",
-    tr: "Local Storage ye kalıcı veri aktarma ve oradaki verileri okuma.",
-    en: "Transfering permanent data to Local Storage and reading datas there.",
+    tr: "Dependency Injection uygulayarak web servisler oluşturma ve bu servisleri Onion Architecture gibi çok katmanlı yazılım mimarilerine dahil etme.",
+    en: "Generating web services by implementing Dependency Injection and including the services in multi-layered software architecture like Onion Architecture.",
   },
   {
     id: "experience-4",
-    tr: "HTTP protokolünü kullanan Rest API ye, Axios kütüphanesi kullanılarak server taraflı GET, POST, PUT, DELETE gibi request ler atılıp, veri alışverişi sağlandı.",
-    en: "It has been made serverside request such as GET, POST, PUT, DELETE to Rest Api using HTTP protocol by using Axios Library and data flow has been provided.",
+    tr: "Logging mekanizmasını projeye dahil etme (Serilog ve Seq).",
+    en: "Including logging mechanism in project (Serilog and Seq).",
   },
   {
     id: "experience-5",
-    tr: "Json Fake API ile Full stack projeler oluşturuldu.",
-    en: "It has been created full stack projects with JSON Fake API.",
+    tr: "Anlık mesajlaşma altyapıları ve araçlarıyla (WebSocket- SignalR, QRCode) çalışmalar.",
+    en: "Working on instant message tools and infrastructures (WebSocket- SignalR, QRCode).",
   },
   {
     id: "experience-6",
-    tr: "Asenkron fonksiyon yapıları kurularak promise result lar elde edildi.",
-    en: "It has been acquired promise results by being set up asynchronous functional structures.",
+    tr: "SOLID Prensipleri, SRP ve OOP benimsenmiş Clean Code yazma.",
+    en: "Clean Coding adopting SOLID Principles, SRP and OOP.",
   },
   {
     id: "experience-7",
-    tr: "Redux ile State yönetimi entegre edilerek verilere bütün componentlerde erişim sağlandı.",
-    en: "In all components have been reached datas by being entegrated State Management with Redux.",
+    tr: "Refactoring kültürü ile performans odaklı çalışma.",
+    en: "Preformance-focused work by embracing refactoring culture.",
   },
   {
     id: "experience-8",
-    tr: "Props Drilling yapmaksızın Context API ile componentler arası veri akışı sağlandı.",
-    en: "Without Props Drilling has been provided data flow between components with Context API.",
+    tr: "Asenkron programlama mantığıyla veri akışlarını sağlama.",
+    en: "Providing data flows with asynchronous programming logic.",
   },
   {
     id: "experience-9",
-    tr: "Kullanıcı deneyimini performe eden React Hook's lar kullanıldı.",
-    en: "It has been used React Hooks performing user experience.",
+    tr: "Kimlik doğrulama (Oauth2,JWT token) ve rol tabanlı yetkilendirme mekanizmalarını projeye dahil etme.",
+    en: "Including mechanism of authentication (Oauth2,JWT token) and role-based authorization in project.",
   },
   {
     id: "experience-10",
-    tr: "Veri ve tarayıcı davranışı manüpülasyonunu sağlayan Life Cycle metotlar kullanıldı.",
-    en: "It has been used Life Cycle Methods helping data and browser manipulation.",
+    tr: "JWT Expiration Ayarlama | Refresh Token Konfigürasyonu yapma.",
+    en: "Configuring JWT Expiration and Refresh Token.",
   },
   {
     id: "experience-11",
-    tr: "Form validasyonu işlemleri yapıldı.",
-    en: "Form validation process has been made.",
+    tr: "Reset Password İle Kullanıcı Şifresini Güncelleme.",
+    en: "Updating user password with Reset Password.",
   },
   {
     id: "experience-12",
-    tr: "Pagination ve Search işlemleri yapıldı.",
-    en: "Pagination and search process has been made.",
+    tr: "Önyüzde Http Interceptor ile Global Http Error Handling | Arkayüzde Global Exception Handling ile hata kontrollemesi.",
+    en: "Cotrolling Error with Http Interceptor ile Global Http Error Handling on Frontend | Global Exception Handling on Backend.",
   },
   {
     id: "experience-13",
-    tr: "Local Storage kullanarak Authentication yapıldı.",
-    en: "Authentication has been made using Local Storage.",
+    tr: "Mobil uyumlu Responsive tasarımlar hazırlama.",
+    en: "Preparing mobile-friendly Responsive designs.",
   },
   {
     id: "experience-14",
-    tr: "Kütüphane kullanılan veya kullanılmayan responsive web tasarımlar yapıldı.",
-    en: "Reasponsive web designs have been made with or without library.",
+    tr: "Seo uyumlu E-Ticaret, Otomasyon ve Yönetim Panellerini uçtan uca Full Stack geliştirmesini yapma ve Multiple Layout'larını tasarlama.",
+    en: "Developing end-to-end Full Stack Seo-friendly E-Commerce, Automation and Admin Panels and designing Multiple Layouts of them.",
   },
   {
     id: "experience-15",
-    tr: "Bootstrap ve Material UI gibi modern kütüphaneler kulanılarak hızlı ve güzel arayüzler elde edildi.",
-    en: "By using modern libraries such as Bootstrap ve Material UI, it has been acquired quick and fantastic interfaces.",
+    tr: "Debug ve performans optimizasyonu için tarayıcı araçlarını kullanma.",
+    en: "Using browser developer tools for debugging and performance optimization.",
+  },
+  {
+    id: "experience-16",
+    tr: "Form validasyonlarını Önyüz (Reactive Form) ve Arkayüzde (FluentValidation) sağlama.",
+    en: "Providing Form Validations (Reactive Form on Frontend) and (FluentValidation on Backend).",
+  },
+  {
+    id: "experience-17",
+    tr: "Angular ve Angular komponent yaşam döngüleri ile efektif tasarımlar yapma.",
+    en: "Preparing effective designs by using Angular and Angular Component Lifecycles.",
+  },
+  {
+    id: "experience-18",
+    tr: "React ve React komponent yaşam döngüleri ile efektif tasarımlar yapma.",
+    en: "Preparing effective designs by using React and React Component Lifecycles.",
+  },
+  {
+    id: "experience-19",
+    tr: "Arayüz tasarımlarında yenilikçi ve modern çizgiler kullanma.",
+    en: "Using innovative and modern lines on designs of User Interface.",
   },
 
   {
@@ -246,11 +272,6 @@ const dictionary = [
     en: "Anadolu University, Eskişehir",
   },
   {
-    id: "One-year",
-    tr: "Bir Yıllık Tecrübe (Uzaktan)",
-    en: "One-Year Experience (Remote)",
-  },
-  {
     id: "eylul2009",
     tr: "Eylül 2009-Haziran 2014",
     en: "September 2009-June-2014",
@@ -268,8 +289,8 @@ const dictionary = [
 
   {
     id: "referanslar",
-    tr: "Referanslar",
-    en: "References",
+    tr: "Projeler :",
+    en: "Projects :",
   },
   {
     id: "Arabuleu",
